@@ -1,0 +1,60 @@
+\section{Limerick-Galway}
+
+This section describes the cluster around Limerick on the westcoast of Ireland. In this cluster are five nodes:
+
+1. Limerick, city
+2. Galway, city
+3. Moneypoint, large coal power plant
+4. Ardnacrusha, hydro power plant
+5. Oldstreet, transformer station
+
+A diagram of nodes, lines and voltage leves can be seen in figure ??
+
+\subsection{Nodes}
+\subsubsection{Limerick and Galway nodes}
+These are citys. As such, they are modelled with residential and industrial loads. The estimated loads are based on the population relative to the population of the country (5 million), and the electrical energy demand of the country, typically 4 GW.
+
+The poulation of Limerick $pop_{Limerick}$ is 102.000, Galway 86.000. Assumed is the residential demand is 70\% of the total demand, with power factors of 0.98 (residential) and 0.9 (industrial) as stated in the assignment.
+
+\begin{equation} 
+    P_{Limerick} = \frac{pop_{Limerick}}{pop_{Ireland}} \dot P_{Ireland} = \frac{102e3}{5e6} \cdot 4e9 = 81.6 [\text{MW}]}
+\end{equation}
+
+Residential and industrial demand accounts for:
+\begin{equation} 
+    P_{Limerick, r} = 0.7 * P_{Limerick} = 57.12 [\text{MW}] \\
+    P_{Limerick, i} = 0.3 * P_{Limerick} = 24.48 [\text{MW}]
+\end{equation}
+
+The same calculations are made for Galway, producing:
+
+\begin{equation}
+    P_{Galway, r} = 48.16 [\text{MW}] \\
+    P_{Galway, i} = 14.448 [\text{MW}]
+\end{equation}
+
+In \textbb{PowerFactory}, these loads are input with P and pf.
+
+\subsubsection{Moneypoint and Ardnacrusha power plants}
+Moneypoint is a large thermal power plant, which for many years has produced electricity from burning coal. Moneypoint employs three generators, each rated at 305 MW. The powerfactor used for generators is 0.9 inductive. The rated apparent power of each generator is:
+
+\begin{equation}
+    S_{rated, Moneypoint} \approx \frac{P_{rated}}{pf} = \frac{305e6}{0.9} = 339 [\text{MVA}] 
+\end{equation}
+
+Ardnacrusha is a hydro power plant in Limerick. The same calculations can be done, producing:
+
+\begin{equation}
+    S_{rated, Ardnacrusha} \approx 96 [\text{MVA}]
+\end{equation}
+
+\subsubsection{Oldstreet}
+Oldstreet is a distribution hub where 400 kV lines and 132 kV lines intersect. Oldstreet is used also to comply with the demand of two connections to every node. 
+
+\subsection{Lines}
+All lines are over head lines.
+INSERT TABLE HERE
+
+
+
+
