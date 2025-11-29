@@ -1,0 +1,18 @@
+﻿Name,Type,
+,TypSym,
+Turlough Hill Hydro Plant,Hydro SM 324 MVA,
+Name,Type,Terminal
+Great Island CC Gas Turbine,CCGT SM 515.2 MVA,  Great Island 20kV
+Moneypoint Coal Plant,Coal SM 700MVA,  Moneypoint Coal Plant 20kV
+Aghada Gas Turbine,Gas SM 450 MVA,  Aghada 20kV
+Whitegate Gas Turbine,Gas SM 488 MVA,  Aghada 20kV
+Huntstown Gas Turbine 1,Gas SM 550 MVA,  Huntstown 20kV
+Huntstown Gas Turbine 2,Gas SM 550 MVA,  Huntstown 20kV
+Huntstown Gas Turbine 3,Gas SM 550 MVA,  Huntstown 20kV
+Huntstown Gas Turbine 4,Gas SM 550 MVA,  Huntstown 20kV
+Dundalk Gas Turbine,Gas SM 680 MVA,  Dundalk Generation 20kV
+Poolbeg+DublinBay Gas Turbine 1,Gas SM 680 MVA,  Poolbeg 20kV
+Poolbeg+DublinBay Gas Turbine 2,Gas SM 680 MVA,  Poolbeg 20kV
+Poolbeg+DublinBay Gas Turbine 3,Gas SM 680 MVA,  Poolbeg 20kV
+Ardnacrusha Hydro Plant,Hydro SM 250MVA,  Ardnacrusha 20kV
+Turlough Hill Hydro Plant,Hydro SM 324 MVA,  Turlough Hill 20kV
